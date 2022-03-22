@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE!! </title>
+    <style>
+        /* HERE WE ARE SETTING UP MORE SPECIFICS FOR OUR TABLES */
+        table, tbody, thead, tr, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            width: 75%;
+            margin: 0 auto;
+            font-size: 1.5em;
+        }
+        thead{
+            background: black;
+            
+        }
+        th, td{
+            padding: 10px;
+        }
+        thead, th{
+            color: white;
+        }
+        tbody, td{
+            text-align: center;
+        }
+         tbody tr:nth-child(even){
+            background: #f2f2f2f2;
+        }
+        /* WITH HOVER WE ARE MAKING MORE ACTIVE 
+        !!!!! */
+        tbody tr:hover{
+            background: pink;
+        }
+    </style>
+</head>
+<body>                          
+    <table>
+        <thead>
+            <tr>
+                <th>ISIM</th> 
+                <th>MESLEK</th>
+                <th>YAS</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Emre</td>
+                <td>Ogrenci</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Emre</td>
+                <td>Ogrenci</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Emre</td>
+                <td>Ogrenci</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Emre</td>
+                <td>Ogrenci</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

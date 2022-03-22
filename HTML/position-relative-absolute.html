@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSITIONS-RELATIVE-ABSOLUTE</title>
+    <style>
+        /* .red{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            top: 10px;
+            left: 40px;
+            
+            
+        }
+        .blue{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: relative;
+            top: 5px;
+            left: 70px;
+            /* IF WE WANT TO SEE BLUE IN FRONT WE CAN SET Z-INDEX HIGHER THAN 0 
+            z-index: 1;
+            
+            
+        } */
+        /* OUTER IS PARENTS OF INNER SO IF WE WANT SOME CHANGES IN INNER WITH USING POSITION WE SHOULD ALSO GIVE POSITION AS REALTIVE OR ABSOLUTE TO PARENTS DIV */
+        .outer{
+            width: 400px;
+            height: 400px;
+            background-color: #f7f7;
+            position: relative;
+        }
+        .inner{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            position: absolute;
+            bottom: 0px;
+            right: 110px;
+        }
+        /* 
+        
+        THIS ONE.... I DONT KNOW HOW TO EXPLAIN IT BUT ITS SOMEHOW WORKING IN A WAY THAT BROWSER IS KEEPING PLACE FOR ITSELF EVEN IF WE GAVE THE POSITION MANUALLY 
+        span{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            display: inline-block;
+            position: relative;
+            left: 100px;
+            z-index: -1;
+        } */
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <!-- <span></span>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde temporibus sint ab voluptate placeat enim hic libero saepe veritatis corporis iure commodi eos voluptas atque, aliquid dolorum nulla reiciendis amet. -->
+
+    <div class="outer">
+        <div class="inner"></div>
+    </div>
+        <!-- <div class="red"></div>
+        <div class="blue"></div> -->
+</body>
+</html>
